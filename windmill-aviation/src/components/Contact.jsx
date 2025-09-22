@@ -11,10 +11,10 @@ export default function Contact() {
 
         <div className="grid lg:grid-cols-2 gap-12">
           <div className="space-y-8">
-            <InfoRow title="Phone" lines={["+1 (555) 123-4567","+1 (555) 123-4568"]} hint="Call us today" icon="phone" />
-            <InfoRow title="Email" lines={["info@windmillaviation.com","consultations@windmillaviation.com"]} hint="Send us an email" icon="mail" />
-            <InfoRow title="Office" lines={["123 Aviation Boulevard","Suite 456, Airport City, AC 12345"]} hint="Visit our office" icon="pin" />
-            <InfoRow title="Hours" lines={["Mon-Fri: 8:00 AM - 6:00 PM","Emergency: 24/7 Available"]} hint="Business hours" icon="clock" />
+            {/* <InfoRow title="Phone" lines={["+1 (555) 123-4567","+1 (555) 123-4568"]} hint="Call us today" icon="phone" /> */}
+            <InfoRow title="Email" lines={["aa@windmillaviation.com"]} hint="Send us an email" icon="mail" />
+            {/* <InfoRow title="Office" lines={["123 Aviation Boulevard","Suite 456, Airport City, AC 12345"]} hint="Visit our office" icon="pin" /> */}
+            <InfoRow title="Hours" lines={["24/7"]} hint="Business hours" icon="clock" />
 
             <div className="rounded-lg shadow-sm bg-gradient-hero text-primary-foreground border-0">
               <div className="flex flex-col space-y-1.5 p-6">
@@ -30,7 +30,7 @@ export default function Contact() {
             </div>
           </div>
 
-          <div className="rounded-lg border bg-card text-card-foreground shadow-sm shadow-card border-border/50">
+          {/* <div className="rounded-lg border bg-card text-card-foreground shadow-sm shadow-card border-border/50">
             <div className="flex flex-col space-y-1.5 p-6">
               <h3 className="font-semibold tracking-tight text-2xl">Send us a Message</h3>
               <p className="text-muted-foreground">Fill out the form below and we'll get back to you within 24 hours.</p>
@@ -48,8 +48,8 @@ export default function Contact() {
                 Send Message
               </button>
             </form>
-          </div>
-        </div>
+          </div>*/}
+        </div> 
       </div>
     </section>
   )
