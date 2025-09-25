@@ -34,17 +34,6 @@ header {
   border-bottom: 1px solid rgba(255,255,255,0.06);
 }
 
-/* Add padding to main content to prevent header overlap */
-main {
-  padding-top: 20px;
-}
-
-@media (min-width: 768px) {
-  main {
-    padding-top: 0;
-  }
-}
-
 .nav-bar {
   display: flex; align-items: center; justify-content: space-between;
   padding: 12px 0;
@@ -62,7 +51,7 @@ main {
 @media (min-width: 768px) { .mobile-menu-btn { display: none; } }
 
 .nav-links.open { display: grid; position: absolute; top: 56px; right: 16px; background: var(--surface); border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; padding: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.3); }
-.nav-links.open a { padding: 8px 12px; color: var(--accent); }
+.nav-links.open a { padding: 8px 12px; }
 
 .hero {
   display: grid; align-items: center; min-height: 70vh; padding: 48px 0 32px;
