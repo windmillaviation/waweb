@@ -22,6 +22,23 @@ body {
   margin: 0;
 }
 
+/* Add top margin to main content to offset fixed header */
+main {
+  margin-top: 80px; /* Adjust this value based on your header height */
+}
+
+/* Custom green link styles */
+.nav-link-green {
+  color: #10b981 !important; /* green-500 equivalent */
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-link-green:hover {
+  color: #34d399 !important; /* green-400 equivalent */
+}
+
 a { color: var(--accent); text-decoration: none; }
 a:hover { opacity: .9; }
 
