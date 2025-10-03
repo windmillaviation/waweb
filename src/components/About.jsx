@@ -5,17 +5,17 @@ export default function About() {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="space-y-8">
             <div className="space-y-4">
-              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold">Elevating Aviation
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold">Elevating Aerospace
                 <span className="block text-primary">Excellence Worldwide</span>
               </h2>
-              <p className="text-lg text-muted-foreground leading-relaxed">With over 25 years of combined experience in aviation consulting, Windmill Aviation has established itself as a trusted partner for airlines, airports, and aviation companies worldwide.</p>
+              <p className="text-lg text-muted-foreground leading-relaxed">With over 25 years of combined experience in aerospace asset management, Windmill Aviation has established itself as a trusted partner for fleet operators, asset owners, and aerospace organizations worldwide.</p>
             </div>
             <div className="space-y-6">
-              <p className="text-muted-foreground">Our team of certified aviation professionals brings deep industry knowledge and practical expertise to every engagement. We understand the unique challenges facing the aviation industry and provide strategic solutions that drive results.</p>
+              <p className="text-muted-foreground">Our team of certified aerospace professionals brings deep industry knowledge and practical expertise to every asset management project. We understand the unique challenges facing aerospace asset owners and provide data-driven solutions that maximize portfolio value.</p>
               <div className="grid grid-cols-2 gap-6">
                 <div className="text-center">
                   <div className="text-3xl font-bold text-primary">500+</div>
-                  <div className="text-sm text-muted-foreground">Projects Completed</div>
+                  <div className="text-sm text-muted-foreground">Assets Managed</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-primary">25+</div>
@@ -33,10 +33,10 @@ export default function About() {
             </div>
           </div>
           <div className="grid sm:grid-cols-2 gap-6">
-            <InfoCard title="Precision" icon="target" text="Every detail matters in aviation. We deliver precise solutions tailored to your specific needs." />
-            <InfoCard title="Excellence" icon="award" text="Uncompromising commitment to quality and excellence in every project we undertake." />
-            <InfoCard title="Global Reach" icon="globe" text="International expertise with local knowledge across diverse aviation markets." />
-            <InfoCard title="Innovation" icon="zap" text="Cutting-edge solutions that prepare your business for the future of aviation." />
+            <InfoCard title="Precision" icon="target" text="Every asset detail matters. We deliver precise asset management strategies tailored to your specific portfolio needs." />
+            <InfoCard title="Excellence" icon="award" text="Uncompromising commitment to maximizing asset value and operational excellence in every portfolio we manage." />
+            <InfoCard title="Global Reach" icon="globe" text="International asset management expertise with local market knowledge across diverse aerospace sectors." />
+            <InfoCard title="Innovation" icon="zap" text="Cutting-edge asset management technologies that prepare your portfolio for the future of aerospace markets." />
           </div>
         </div>
       </div>

@@ -6,11 +6,11 @@ export default function Hero() {
           <div className="space-y-8 text-center lg:text-left">
             <div className="space-y-4">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
-                Expert Aviation
-                <span className="block text-primary">Consulting Solutions</span>
+                Expert Aerospace
+                <span className="block text-primary">Asset Management</span>
               </h1>
               <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto lg:mx-0">
-                Elevating aviation excellence through strategic consulting, regulatory compliance, and operational optimization. Your trusted partner in the skies.
+                Maximizing aerospace asset performance through lifecycle management, fleet optimization, and strategic portfolio decisions. Your trusted asset management partner.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -19,7 +19,7 @@ export default function Hero() {
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
               </a>
               <a className="inline-flex items-center justify-center gap-2 border-2 border-primary text-primary bg-transparent hover:bg-primary hover:text-primary-foreground font-semibold h-14 rounded-lg px-10 text-base" href="#contact">
-                Schedule Consultation
+                Asset Portfolio Review
               </a>
             </div>
             <div className="flex flex-wrap justify-center lg:justify-start gap-8 pt-8">
@@ -49,7 +49,7 @@ export default function Hero() {
             </div>
             <div className="absolute -bottom-4 -right-4 bg-card rounded-lg p-4 shadow-soft border">
               <div className="text-2xl font-bold text-primary">500+</div>
-              <div className="text-sm text-muted-foreground">Happy Clients</div>
+              <div className="text-sm text-muted-foreground">Assets Managed</div>
             </div>
           </div>
         </div>

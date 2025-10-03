@@ -1,39 +1,39 @@
 const services = [
   {
-    title: 'Operational Optimization',
+    title: 'Fleet Optimization',
     icon: 'settings',
-    description: 'Streamline your aviation operations for maximum efficiency and cost-effectiveness while maintaining the highest safety standards.',
-    bullets: ['Process Analysis', 'Cost Reduction', 'Performance Metrics']
+    description: 'Optimize aerospace asset performance through data-driven fleet management, maintenance scheduling, and utilization analysis.',
+    bullets: ['Fleet Analytics', 'Maintenance Planning', 'Utilization Optimization']
   },
   {
-    title: 'Safety Management',
+    title: 'Asset Lifecycle Management',
     icon: 'file-check',
-    description: 'Comprehensive safety management systems that protect your operations, personnel, and reputation in the aviation industry.',
-    bullets: ['SMS Implementation', 'Risk Assessment', 'Training Programs']
+    description: 'Comprehensive lifecycle management from acquisition to retirement, maximizing asset value and operational efficiency.',
+    bullets: ['Acquisition Planning', 'Lifecycle Tracking', 'Disposal Strategy']
   },
   {
-    title: 'Training & Development',
+    title: 'Performance Monitoring',
     icon: 'users',
-    description: "Expert aviation training programs tailored to your team's needs, from ground crew to executive leadership.",
-    bullets: ['Custom Curricula', 'Certification Prep', 'Leadership Training']
+    description: 'Real-time asset performance tracking and predictive analytics to optimize operational efficiency and reduce downtime.',
+    bullets: ['Performance Dashboards', 'Predictive Analytics', 'Downtime Reduction']
   },
   {
-    title: 'Strategic Planning',
+    title: 'Portfolio Management',
     icon: 'trending-up',
-    description: 'Long-term strategic consulting to help your aviation business grow sustainably in a competitive market.',
-    bullets: ['Market Analysis', 'Growth Planning', 'Investment Strategy']
+    description: 'Strategic aerospace asset portfolio optimization through market analysis, investment decisions, and risk management.',
+    bullets: ['Portfolio Analysis', 'Investment Strategy', 'Risk Assessment']
   },
   {
-    title: 'Quality Assurance',
+    title: 'Compliance & Certification',
     icon: 'circle-check-big',
-    description: 'Implement robust quality management systems that ensure consistent excellence across all aviation operations.',
-    bullets: ['QA Systems', 'Process Improvement', 'Standards Compliance']
+    description: 'Ensure all aerospace assets meet regulatory requirements and maintain certification status for optimal operational readiness.',
+    bullets: ['Regulatory Compliance', 'Certification Management', 'Audit Support']
   },
   {
-    title: 'Regulatory Compliance',
+    title: 'Value Enhancement',
     icon: 'shield',
-    description: 'Navigate complex aviation regulations with confidence. We ensure your operations meet all international standards.',
-    bullets: ['FAA Certification Support', 'Audit Preparation', 'Documentation Review']
+    description: 'Maximize aerospace asset value through strategic upgrades, market positioning, and operational improvements.',
+    bullets: ['Asset Valuation', 'Upgrade Planning', 'Market Positioning']
   }
 ]
 
@@ -71,10 +71,10 @@ export default function Services() {
     <section id="services" className="py-20 bg-background">
       <div className="container">
         <div className="text-center space-y-4 mb-16">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold">Comprehensive Aviation
-            <span className="block text-primary">Consulting Services</span>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold">Comprehensive Aerospace
+            <span className="block text-primary">Asset Management Solutions</span>
           </h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">From regulatory compliance to operational excellence, we provide the expertise and guidance your aviation business needs to soar to new heights.</p>
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">From fleet optimization to lifecycle management, we deliver comprehensive asset management solutions that maximize value and operational efficiency.</p>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((s) => (

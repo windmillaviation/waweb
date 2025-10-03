@@ -6,25 +6,25 @@ export default function Contact() {
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold">Ready to Take Off?
             <span className="block text-primary">Let's Connect</span>
           </h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">Get in touch with our aviation experts today. We're here to help you navigate challenges and achieve your goals in the aviation industry.</p>
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">Get in touch with our aerospace asset management experts today. We're here to help you optimize your portfolio and maximize asset value in the aerospace industry.</p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12">
           <div className="space-y-8">
             {/* <InfoRow title="Phone" lines={["+1 (555) 123-4567","+1 (555) 123-4568"]} hint="Call us today" icon="phone" /> */}
             <InfoRow title="Email" lines={["aa@windmillaviation.com"]} hint="Send us an email" icon="mail" />
-            {/* <InfoRow title="Office" lines={["123 Aviation Boulevard","Suite 456, Airport City, AC 12345"]} hint="Visit our office" icon="pin" /> */}
+            {/* <InfoRow title="Office" lines={["123 Aerospace Boulevard","Suite 456, Airport City, AC 12345"]} hint="Visit our office" icon="pin" /> */}
             <InfoRow title="Hours" lines={["24/7"]} hint="Business hours" icon="clock" />
 
             <div className="rounded-lg shadow-sm bg-gradient-hero text-primary-foreground border-0">
               <div className="flex flex-col space-y-1.5 p-6">
                 <div className="flex items-center space-x-3">
                   <Icon name="message" className="h-6 w-6" />
-                  <h3 className="text-2xl font-semibold leading-none tracking-tight">Emergency Aviation Support</h3>
+                  <h3 className="text-2xl font-semibold leading-none tracking-tight">Emergency Asset Support</h3>
                 </div>
               </div>
               <div className="p-6 pt-0">
-                <p className="mb-4">Need immediate aviation consulting support? Our emergency response team is available 24/7 for critical situations.</p>
+                <p className="mb-4">Need immediate asset management support? Our emergency response team is available 24/7 for critical asset situations.</p>
                 <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm border-2 font-semibold h-11 rounded-md px-8 bg-transparent border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">Emergency Contact</button>
               </div>
             </div>
@@ -43,7 +43,7 @@ export default function Contact() {
               <Field type="email" label="Email" placeholder="your.email@company.com" />
               <Field label="Company" placeholder="Your company name" />
               <Field label="Service Interest" placeholder="Which service are you interested in?" />
-              <Field as="textarea" label="Message" placeholder="Tell us about your aviation consulting needs..." textarea />
+              <Field as="textarea" label="Message" placeholder="Tell us about your aerospace asset management needs..." textarea />
               <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm bg-gradient-hero text-primary-foreground hover:opacity-90 shadow-soft font-semibold h-11 rounded-md px-8 w-full">
                 Send Message
               </button>
