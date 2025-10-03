@@ -5,38 +5,38 @@ export default function About() {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="space-y-8">
             <div className="space-y-4">
-              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold">Elevating Aerospace
-                <span className="block text-primary">Excellence Worldwide</span>
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold">Leading Aircraft Trading
+                <span className="block text-primary">& Parts Excellence Worldwide</span>
               </h2>
-              <p className="text-lg text-muted-foreground leading-relaxed">With over 25 years of combined experience in aerospace asset management, Windmill Aviation has established itself as a trusted partner for fleet operators, asset owners, and aerospace organizations worldwide.</p>
+              <p className="text-lg text-muted-foreground leading-relaxed">With over 25 years of industry leadership in aircraft trading and parts supply, Windmill Aviation has established itself as the premier partner for aircraft traders, parts suppliers, and aerospace organizations globally.</p>
             </div>
             <div className="space-y-6">
-              <p className="text-muted-foreground">Our team of certified aerospace professionals brings deep industry knowledge and practical expertise to every asset management project. We understand the unique challenges facing aerospace asset owners and provide data-driven solutions that maximize portfolio value.</p>
+              <p className="text-muted-foreground">Our certified aerospace professionals deliver deep trading and parts expertise with proven methodologies. We excel at addressing complex market challenges and delivering data-driven solutions that maximize trading profits and operational efficiency.</p>
               <div className="grid grid-cols-2 gap-6">
                 <div className="text-center">
                   <div className="text-3xl font-bold text-primary">500+</div>
-                  <div className="text-sm text-muted-foreground">Assets Managed</div>
+                  <div className="text-sm text-muted-foreground">Aircraft & Parts Transactions</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-primary">25+</div>
-                  <div className="text-sm text-muted-foreground">Years Experience</div>
+                  <div className="text-sm text-muted-foreground">Years in Trading & Parts</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-primary">98%</div>
-                  <div className="text-sm text-muted-foreground">Client Satisfaction</div>
+                  <div className="text-sm text-muted-foreground">Customer Satisfaction in Trading</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-primary">40+</div>
-                  <div className="text-sm text-muted-foreground">Countries Served</div>
+                  <div className="text-sm text-muted-foreground">Trading Partners in 40+ Countries</div>
                 </div>
               </div>
             </div>
           </div>
           <div className="grid sm:grid-cols-2 gap-6">
-            <InfoCard title="Precision" icon="target" text="Every asset detail matters. We deliver precise asset management strategies tailored to your specific portfolio needs." />
-            <InfoCard title="Excellence" icon="award" text="Uncompromising commitment to maximizing asset value and operational excellence in every portfolio we manage." />
-            <InfoCard title="Global Reach" icon="globe" text="International asset management expertise with local market knowledge across diverse aerospace sectors." />
-            <InfoCard title="Innovation" icon="zap" text="Cutting-edge asset management technologies that prepare your portfolio for the future of aerospace markets." />
+            <InfoCard title="Precision in Trading & Parts" icon="target" text="Every aircraft and part detail matters. We deliver precise trading and parts management strategies tailored to your specific market requirements with meticulous attention to detail." />
+            <InfoCard title="Excellence in Trading & Supply" icon="award" text="Uncompromising commitment to maximizing trading value and operational excellence through innovative aircraft and parts solutions and best-in-class supply chain management." />
+            <InfoCard title="Global Trading Network" icon="globe" text="International aircraft trading expertise with deep local market knowledge and proven success across diverse aerospace sectors worldwide, connecting buyers and sellers globally." />
+            <InfoCard title="Innovation in Trading & Parts" icon="zap" text="Cutting-edge trading technologies and innovative methodologies that position your aircraft and parts portfolio for future market opportunities and competitive advantages in global trading." />
           </div>
         </div>
       </div>

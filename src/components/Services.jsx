@@ -1,39 +1,39 @@
 const services = [
   {
-    title: 'Fleet Optimization',
+    title: 'Aircraft Acquisition & Trading',
     icon: 'settings',
-    description: 'Optimize aerospace asset performance through data-driven fleet management, maintenance scheduling, and utilization analysis.',
-    bullets: ['Fleet Analytics', 'Maintenance Planning', 'Utilization Optimization']
+    description: 'Expert aircraft acquisition, trading, and fleet optimization services that maximize asset value through strategic market positioning and data-driven decisions.',
+    bullets: ['Market Analysis', 'Acquisition Strategy', 'Trading Optimization']
   },
   {
-    title: 'Asset Lifecycle Management',
+    title: 'Aircraft Parts & Component Management',
     icon: 'file-check',
-    description: 'Comprehensive lifecycle management from acquisition to retirement, maximizing asset value and operational efficiency.',
-    bullets: ['Acquisition Planning', 'Lifecycle Tracking', 'Disposal Strategy']
+    description: 'Comprehensive aircraft parts and component lifecycle management from procurement through distribution, ensuring optimal inventory levels and maximum value realization.',
+    bullets: ['Parts Procurement', 'Inventory Management', 'Distribution Strategy']
   },
   {
-    title: 'Performance Monitoring',
+    title: 'Market Intelligence & Trading Analytics',
     icon: 'users',
-    description: 'Real-time asset performance tracking and predictive analytics to optimize operational efficiency and reduce downtime.',
-    bullets: ['Performance Dashboards', 'Predictive Analytics', 'Downtime Reduction']
+    description: 'Advanced market intelligence and trading analytics that provide real-time insights into aircraft values, market trends, and optimal trading opportunities.',
+    bullets: ['Market Dashboards', 'Trading Analytics', 'Value Optimization']
   },
   {
-    title: 'Portfolio Management',
+    title: 'Aircraft Investment & Trading Portfolio',
     icon: 'trending-up',
-    description: 'Strategic aerospace asset portfolio optimization through market analysis, investment decisions, and risk management.',
-    bullets: ['Portfolio Analysis', 'Investment Strategy', 'Risk Assessment']
+    description: 'Strategic aircraft investment and trading portfolio optimization through comprehensive market analysis, investment decisions, and sophisticated risk management for maximum returns.',
+    bullets: ['Trading Portfolio Analysis', 'Investment Strategy', 'Market Risk Assessment']
   },
   {
-    title: 'Compliance & Certification',
+    title: 'Aviation Parts Certification & Compliance',
     icon: 'circle-check-big',
-    description: 'Ensure all aerospace assets meet regulatory requirements and maintain certification status for optimal operational readiness.',
-    bullets: ['Regulatory Compliance', 'Certification Management', 'Audit Support']
+    description: 'Comprehensive aviation parts certification and compliance management ensuring all components meet regulatory requirements and maintain certification status for optimal trading and operational readiness.',
+    bullets: ['Parts Certification', 'Regulatory Compliance', 'Quality Assurance']
   },
   {
-    title: 'Value Enhancement',
+    title: 'Aircraft & Parts Value Optimization',
     icon: 'shield',
-    description: 'Maximize aerospace asset value through strategic upgrades, market positioning, and operational improvements.',
-    bullets: ['Asset Valuation', 'Upgrade Planning', 'Market Positioning']
+    description: 'Strategic aircraft and parts value maximization through market positioning, component upgrades, and operational improvements that enhance trading value and profitability.',
+    bullets: ['Aircraft Valuation', 'Parts Upgrading', 'Market Positioning']
   }
 ]
 
@@ -71,10 +71,10 @@ export default function Services() {
     <section id="services" className="py-20 bg-background">
       <div className="container">
         <div className="text-center space-y-4 mb-16">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold">Comprehensive Aerospace
-            <span className="block text-primary">Asset Management Solutions</span>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold">Comprehensive Aircraft Trading
+            <span className="block text-primary">& Parts Supply Solutions</span>
           </h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">From fleet optimization to lifecycle management, we deliver comprehensive asset management solutions that maximize value and operational efficiency.</p>
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">From aircraft acquisition to parts distribution, we deliver comprehensive trading and supply solutions that maximize value and operational efficiency.</p>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((s) => (

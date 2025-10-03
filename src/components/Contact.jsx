@@ -3,10 +3,10 @@ export default function Contact() {
     <section id="contact" className="py-20 bg-background">
       <div className="container">
         <div className="text-center space-y-4 mb-16">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold">Ready to Take Off?
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold">Ready to Trade Aircraft & Parts?
             <span className="block text-primary">Let's Connect</span>
           </h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">Get in touch with our aerospace asset management experts today. We're here to help you optimize your portfolio and maximize asset value in the aerospace industry.</p>
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">Connect with our aircraft trading and parts supply experts today. We're committed to helping you optimize your trading portfolio and maximize value through proven market solutions and global supply networks.</p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12">
@@ -14,18 +14,18 @@ export default function Contact() {
             {/* <InfoRow title="Phone" lines={["+1 (555) 123-4567","+1 (555) 123-4568"]} hint="Call us today" icon="phone" /> */}
             <InfoRow title="Email" lines={["aa@windmillaviation.com"]} hint="Send us an email" icon="mail" />
             {/* <InfoRow title="Office" lines={["123 Aerospace Boulevard","Suite 456, Airport City, AC 12345"]} hint="Visit our office" icon="pin" /> */}
-            <InfoRow title="Hours" lines={["24/7"]} hint="Business hours" icon="clock" />
+            <InfoRow title="Hours" lines={["24/7 Trading & Parts Support"]} hint="Business hours" icon="clock" />
 
             <div className="rounded-lg shadow-sm bg-gradient-hero text-primary-foreground border-0">
               <div className="flex flex-col space-y-1.5 p-6">
                 <div className="flex items-center space-x-3">
                   <Icon name="message" className="h-6 w-6" />
-                  <h3 className="text-2xl font-semibold leading-none tracking-tight">Emergency Asset Support</h3>
+                  <h3 className="text-2xl font-semibold leading-none tracking-tight">24/7 Emergency Trading & Parts Support</h3>
                 </div>
               </div>
               <div className="p-6 pt-0">
-                <p className="mb-4">Need immediate asset management support? Our emergency response team is available 24/7 for critical asset situations.</p>
-                <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm border-2 font-semibold h-11 rounded-md px-8 bg-transparent border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">Emergency Contact</button>
+                <p className="mb-4">Need immediate trading or parts support? Our dedicated emergency response team provides 24/7 critical trading situation support and rapid response capabilities for urgent aircraft and parts needs.</p>
+                <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm border-2 font-semibold h-11 rounded-md px-8 bg-transparent border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">Request Emergency Trading Support</button>
               </div>
             </div>
           </div>
