@@ -1,23 +1,24 @@
-import Header from './components/Header.jsx'
-import Hero from './components/Hero.jsx'
-import Services from './components/Services.jsx'
-import About from './components/About.jsx'
-import Contact from './components/Contact.jsx'
-import Footer from './components/Footer.jsx'
+import './App.css'
+import logoSymbol from './assets/logo-icon-orig.png'
+import assetPhoto from './assets/site-photos/asset-management-hangar.webp'
+import tradingPhoto from './assets/site-photos/engine-trading-leasing.webp'
+import maintenancePhoto from './assets/site-photos/engine-maintenance.webp'
+import inventoryPhoto from './assets/site-photos/components-inventory.webp'
 
-function App() {
-  return (
-    <>
-      <Header />
-      <main>
-        <Hero />
-        <Services />
-        <About />
-        <Contact />
-      </main>
-      <Footer />
-    </>
-  )
-}
-
+const services = [
+  {number:'01', title:'Aircraft & Engine Asset Management', image:assetPhoto, description:'Supporting aircraft and engine assets throughout their lifecycle, from acquisition and entry into service to ongoing operation, fleet transitions, remarketing and retirement.', tags:'Lifecycle planning · Asset management support · Fleet transitions · Asset remarketing · End-of-life strategies'},
+  {number:'02', title:'Aircraft & Engine Trading and Leasing', image:tradingPhoto, description:'Facilitating aircraft and engine transactions through market insight, commercial expertise and established industry relationships. We support customers in identifying opportunities, evaluating assets and navigating complex commercial arrangements.', tags:'Sales & acquisitions · Asset trading · Leasing · Sale-and-leaseback · Commercial negotiations'},
+  {number:'03', title:'Maintenance & Technical Solutions', image:maintenancePhoto, description:'Connecting customers with specialist maintenance providers and technical partners to support aircraft and engine operations, maintenance planning and fleet transition requirements.', tags:'Aircraft maintenance support · Engine maintenance solutions · PBH programmes · Maintenance coordination · Technical support'},
+  {number:'04', title:'Component Supply & Inventory Solutions', image:inventoryPhoto, description:'Supporting customers with aircraft component sourcing, inventory solutions and commercial strategies designed to improve asset utilisation, maximise value and support operational requirements.', tags:'Component sourcing · Inventory solutions · Surplus inventory remarketing · Supply chain support'},
+]
+function App(){return <>
+<header className="header"><a className="brand" href="#home"><img src={logoSymbol} alt="Windmill Aviation turbine symbol"/><span>WINDMILL AVIATION<small>AVIATION ASSET & COMMERCIAL SOLUTIONS</small></span></a><nav><a href="#home">Home</a><a href="#services">Our Services</a><a href="#about">About</a><a href="#approach">Our Approach</a><a className="nav-contact" href="#contact">Get in Touch ↗</a></nav></header>
+<main>
+<section className="hero" id="home"><div className="hero-inner"><span className="eyebrow">INDEPENDENT AVIATION SOLUTIONS</span><h1>Aviation Assets.<br/>Lifecycle Solutions.<br/><em>Global Connections.</em></h1><div className="gold-line"/><h2>Independent aviation asset management and commercial solutions.</h2><p>Windmill Aviation supports aircraft and engine owners, operators, lessors and investors throughout the aviation asset lifecycle.</p><p>Combining industry experience, commercial expertise and a global network of relationships, we deliver tailored solutions across asset trading, acquisitions, leasing, maintenance support, fleet transitions and component supply.</p><a className="button" href="#services">Explore Our Services <span>↗</span></a></div></section>
+<section id="services" className="section services"><div className="wrap"><span className="eyebrow">WHAT WE DO <b>——</b></span><div className="section-heading"><h2>Comprehensive Solutions<br/>Across the Asset Lifecycle</h2><p>Commercial insight and specialist relationships for every stage of aircraft and engine ownership.</p></div><div className="service-grid">{services.map(s=><article className="service" key={s.number}><div className="service-img" style={{backgroundImage:`url('${s.image}')`}}><span>{s.number}</span></div><h3>{s.title}</h3><p>{s.description}</p><div className="tags">{s.tags}</div><a href="#contact">Discover More <span>↗</span></a></article>)}</div></div></section>
+<section id="about" className="about"><div className="about-copy"><span className="eyebrow">ABOUT WINDMILL AVIATION <b>——</b></span><h2>Independent Thinking.<br/><em>Global Expertise.</em></h2><p>Windmill Aviation is an independent aviation asset management and commercial solutions provider, specialising in aircraft and engines throughout their lifecycle.</p><p>Drawing on extensive aviation industry experience, we combine commercial expertise, market insight and established industry relationships to support customers across the global aviation market.</p><p>Our expertise spans the commercial and technical aspects of aircraft and engine asset ownership, operation, maintenance, transition and remarketing. We work closely with customers and industry partners to identify opportunities, navigate complex transactions and deliver tailored solutions aligned with individual commercial objectives.</p><p>Through a collaborative and commercially focused approach, we are committed to delivering value, building trusted relationships and supporting our customers' long-term success.</p><a className="text-link" href="#contact">Start a Conversation ↗</a></div><div className="about-image" role="img" aria-label="White wide-body commercial aircraft at sunset on airport apron"/></section>
+<section id="approach" className="section approach"><div className="wrap"><span className="eyebrow">WHY WINDMILL AVIATION <b>——</b></span><h2>Commercial Insight. Industry Relationships.<br/><em>Tailored Solutions.</em></h2><p className="approach-intro">Every aircraft, engine and commercial transaction presents unique opportunities and challenges. Drawing on industry experience, commercial insight and trusted relationships, we bring together the right expertise and resources to deliver tailored solutions that maximise value.</p><div className="benefits"><div><span>01 /</span><h3>Lifecycle Expertise</h3><p>Understanding the commercial and technical requirements of aircraft and engines throughout their operational lives.</p></div><div><span>02 /</span><h3>Integrated Solutions</h3><p>Connecting asset management, trading, maintenance support and component supply to address complex customer requirements.</p></div><div><span>03 /</span><h3>Commercial Focus</h3><p>Delivering flexible, commercially driven solutions that protect asset value and support long-term customer objectives.</p></div></div></div></section>
+<section className="contact" id="contact"><div className="wrap contact-layout"><div><span className="eyebrow">LET'S CONNECT <b>——</b></span><h2>Let's Explore<br/><em>Opportunities Together.</em></h2><p>From aircraft and engine transactions to maintenance support, fleet transitions and inventory solutions, Windmill Aviation is ready to discuss your requirements.</p><a className="button light" href="mailto:aa@windmillaviation.com?subject=Windmill%20Aviation%20Enquiry">Get in Touch ↗</a></div><div className="contact-detail"><span>GENERAL ENQUIRIES</span><a href="mailto:aa@windmillaviation.com">aa@windmillaviation.com ↗</a><span>OUR PERSPECTIVE</span><p>Global reach. Personal service.</p></div></div></section>
+</main><footer><div className="wrap footer-layout"><div className="footer-brand"><img src={logoSymbol} alt="Windmill Aviation turbine symbol"/><span>© {new Date().getFullYear()} Windmill Aviation. All rights reserved.</span></div><div><a href="#home">Home</a><a href="#services">Services</a><a href="#about">About</a><a href="#contact">Contact</a></div></div></footer>
+</>}
 export default App
